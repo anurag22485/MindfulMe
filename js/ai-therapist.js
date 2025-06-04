@@ -1,6 +1,6 @@
 class AITherapist {
     constructor() {
-        this.API_KEY = 'AIzaSyBLih7DG7gN9Gd-0G9Ue9a7z8eGtRqJWs0'; //I know this API Key is public, but will close it after hackathon :)
+        this.API_KEY = 'AIzaSyBx_LWJP6MNAKEXMTZ-wIl2nhOq8-3pDzQ'; //I know this API Key is public, but will close it after hackathon :)
         this.API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent';
         this.chatHistory = [];
         this.initializeEventListeners();
